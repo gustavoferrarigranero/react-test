@@ -52,7 +52,7 @@ class SeuGado extends React.Component {
   }
 }
 
-class SeuGado2 extends React.Component {
+class SeuGadoDetail extends React.Component {
   render() {
     return (
       <div className="content">
@@ -74,7 +74,7 @@ ReactDOM.render(
     <Router>
       <div>
         <Route exact path="/" component={SeuGado} />
-        <Route path="/card" component={SeuGado2} />
+        <Route path="/card" component={SeuGadoDetail} />
       </div>
     </Router>,
     document.getElementById('root')
